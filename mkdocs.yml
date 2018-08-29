@@ -1,0 +1,31 @@
+site_name: Bobby Jo
+site_url: 'http://bobsawey.github.io/'
+repo_url: 'https://github.com/bobsawey/bobsawey.github.io'
+edit_uri: ''
+site_description: Bobby Jo
+site_author: Bobby Jo Sawey
+copyright: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+google_analytics: ['UA-00000000-0', 'username.github.io']
+remote_branch: master
+
+strict: False
+
+pages:
+- Home: index.md
+
+theme: material
+
+extra:
+  font:
+    code: 'Menlo'
+
+extra_css:
+- css/custom.css
+
+markdown_extensions:
+- admonition
+- codehilite
+- pymdownx.tilde
+- toc:
+    permalink: True
+
